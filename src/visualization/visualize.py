@@ -44,7 +44,7 @@ def evaluate(model, X, y, split, live, save_path):
         y,
         predictions,
         name=f"prc/{split}",
-        drop_intermediate=True,
+        #drop_intermediate=True,
     )
     # ... and confusion matrix plot
     live.log_sklearn_plot(

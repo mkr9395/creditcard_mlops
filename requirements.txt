@@ -5,6 +5,7 @@ scikit-learn
 matplotlib
 seaborn
 dvc
+dvclive
 -e .
 
 # external requirements
